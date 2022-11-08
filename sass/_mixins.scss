@@ -1,0 +1,21 @@
+@mixin layout {
+    @import url('https://fonts.googleapis.com/css2?family=Ibarra+Real+Nova&family=Poppins:ital@1&family=Tajawal:wght@700&display=swap');
+    :root{
+        --main:#2196f3;
+        --secondary:#1787e0;
+        --section:#ececec;
+        --main-transition: 0.3s;
+    }
+*,*::after,*::before{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    user-select: none;
+}
+a{
+    text-decoration: none;
+}
+li{
+    list-style: none;
+}
+}
